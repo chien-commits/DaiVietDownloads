@@ -9,9 +9,9 @@ Chọn đúng hệ máy:
 - macOS Apple Silicon (M1/M2/M3/M4…): `Dai-Viet-1.3.39-mac-arm64.dmg`.
 - macOS Intel: `Dai-Viet-1.3.39-mac-x64.dmg`.
 - Windows 10/11 x64: `Dai-Viet-1.3.39-Windows-x64-Setup.exe`.
-- Ubuntu x64: `Dai-Viet-1.3.39-Ubuntu-x64.deb`.
+- Ubuntu x64: `Dai-Viet-1.3.39-Ubuntu-amd64.deb`.
 
-macOS yêu cầu phiên bản 13 trở lên. Mở DMG và kéo Đại Việt vào Applications. Windows mở bộ cài Setup. Ubuntu mở tệp DEB bằng trình quản lý phần mềm hoặc dùng `sudo apt install ./Dai-Viet-1.3.39-Ubuntu-x64.deb`.
+macOS yêu cầu phiên bản 13 trở lên. Mở DMG và kéo Đại Việt vào Applications. Windows mở bộ cài Setup. Ubuntu mở tệp DEB bằng trình quản lý phần mềm hoặc dùng `sudo apt install ./Dai-Viet-1.3.39-Ubuntu-amd64.deb`.
 
 Các bộ cài chưa có chứng thư nhà phát triển: macOS ký ad-hoc, chưa notarize; Windows chưa ký số. Kết quả đóng gói không xác nhận đã chạy trên Windows/Ubuntu; xem `desktop-release.json` để biết đúng phạm vi kiểm chứng.
 
